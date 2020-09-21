@@ -4,7 +4,7 @@
      %{--<asset:javascript src="bootstrap.js"/>--}%
      %{--<asset:stylesheet href="Bootstrap.css"/>--}%
 
-    <meta name="layout" content="main" />
+    <meta name="layout" content="main_back" />
     <g:set var="entityName" value="${message(code: 'student.label', default: 'Student')}" />
     <title><g:message code="default.search.label" args="[entityName]" /></title>
     <form>

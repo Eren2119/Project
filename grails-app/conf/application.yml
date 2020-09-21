@@ -1,6 +1,6 @@
 ---
 server:
-  port: 9001
+  port:8080
 grails:
     profile: web
     codegen:
