@@ -40,13 +40,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name=""
+    <meta name="layout" content="main"/>
+    <meta name="layout" content="main" />
+    <g:set var="entityName" value="${message(code: 'student.label', default: 'Student')}" />
+    <title><g:message code="default.show.label" args="[entityName]" /></title>
 </head>
 
-<asset:javascript src="bootstrap.bundle.jsjs"/>
-<asset:stylesheet href="BootstrapCDN.css"/>
     <body>
-<form action="/action_page.php">
+<form action="/a">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name.." required><br><br>
 

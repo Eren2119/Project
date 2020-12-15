@@ -5,6 +5,7 @@ import org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverte
 
 import java.nio.charset.Charset
 
+def HOME_DIR="."
 conversionRule 'clr', ColorConverter
 conversionRule 'wex', WhitespaceThrowableProxyConverter
 
@@ -25,12 +26,12 @@ appender('STDOUT', ConsoleAppender) {
 def targetDir = BuildSettings.TARGET_DIR
 if (Environment.isDevelopmentMode() && targetDir != null) {
     appender("FULL_STACKTRACE", FileAppender) {
-        file = "${targetDir}/stacktrace.log"
+        file = "${HOME_DIR}/logs/stacktrace.log"
         append = true
         encoder(PatternLayoutEncoder) {
             pattern = "%level %logger - %msg%n"
         }
     }
-    logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
+    logger("StackTrace", ERROR, ['FULL_STACKTRACE'], true)
 }
 root(ERROR, ['STDOUT'])
