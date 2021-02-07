@@ -10,7 +10,8 @@ body{
 
 .wrapper{
 	margin: auto;
-    width: 80%
+    width: 100%;
+    background-color: transparent !important;
 }
 
 .justifier{
@@ -27,7 +28,11 @@ table tr:first-child th{
     border-top: 1px solid #ccc;
 }
 a{
-	color: green;
+	color: black;
+}
+.text-success {
+    color: #7CFC00;
+
 }
 h2{
 	color: #615d5d;
@@ -72,6 +77,32 @@ border-bottom: 1px solid #ccc;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #A9A9A9;
-  color: white;
+  background-color: #3c8dbc;
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: transparent;
+}
+.skin-blue .sidebar-menu > li:hover > a{background-color: royalblue; !important;}
+.skin-blue .sidebar a {
+    color: black;
+    font-weight: bold;
+}
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+}
+/*.custom-control-label {*/
+    /*font-weight: 500;*/
+    /*line-height: 1.5;*/
+    /*color: #212544;*/
+    /*text-align: left;*/
+    /*text-justify: inter-word;*/
+/*}*/
+.h4, h4 {
+    font-size: 2.5rem;
+}
+#employers tr:nth-child(odd) {
+    background-color: #3c8dbc;
 }

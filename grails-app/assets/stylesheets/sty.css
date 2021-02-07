@@ -1,0 +1,26 @@
+/*.front {*/
+     /*position: absolute;*/
+     /*top: 0;*/
+     /*left: 0;*/
+     /*padding-top: 50px;*/
+     /*!*height: 212vh !important;*!*/
+     /*width: 230px;*/
+     /*z-index: 810;*/
+     /*overflow: hidden;*/
+ /*}*/
+element {
+    height: 3rem;
+}
+.main-header .navbar {
+    height: 48px;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+    height: 50px;
+}
+.wrapper {
+    margin: auto;
+    width: 104%;
+}
+.skin-blue .user-panel>.info, .skin-blue .user-panel>.info>a {
+     color: black;
+}

@@ -2,13 +2,12 @@
 <html>
 <head>
 
-    %{--<asset:javascript src="bootstrap.bundle.js"/>--}%
-    %{--<asset:stylesheet href="BootstrapCDN.css"/>--}%
 
     <meta name="layout" content="main"/>
     <title>Welcome to Grails</title>
 </head>
 <body>
+
     <content tag="nav">
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Application Status <span class="caret"></span></a>

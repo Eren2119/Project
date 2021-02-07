@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <meta name="layout" content="main">
+    %{--<meta name="layout" content="main">--}%
     <g:set var="entityName" value="ProjectTracker Login" />
     <title><g:message code="ProjectTracker Login" args="[entityName]" /> </title>
 </head>

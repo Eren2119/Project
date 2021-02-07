@@ -97,6 +97,7 @@
 </head>
 
 <body>
+<div class="content-wrapper" style="padding-left: 50px; padding-top: 20px;">
 <div class="info">
 </div>
 

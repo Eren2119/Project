@@ -2,7 +2,6 @@
 <html>
 <head>
 
-
 	<meta name="layout" content="main"/>
 	<title>Contact</title>
 	<link rel="stylesheet" href="assets/stylesheets/style.css">
@@ -83,10 +82,11 @@
 
 	</style>
 </head>
-<body>
+<body >
+<div class="content-wrapper" style="padding-left: 50px; padding-top: 20px;">
 	<div class="wrapper">		
 	<div class="main_content">
-<img id="logo-header" class="img-responsive" src="https://site.epfnepal.com.np/assets/images/logo.png" alt="epfLogo">
+%{--<img id="logo-header" class="img-responsive" src="https://site.epfnepal.com.np/assets/images/logo.png" alt="epfLogo">--}%
 </div>
 <p><b>कर्मचारी सञ्चय कोष </b><br>
 <b> Employees Provident Fund</b></p>
@@ -295,6 +295,7 @@ Email: info@epfnepal.com.np</p>
 </table>
 
 	</div>
+</div>
 
 </body>
 </html>
